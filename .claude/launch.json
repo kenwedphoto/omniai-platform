@@ -5,7 +5,15 @@
       "name": "omniai-static",
       "runtimeExecutable": "node",
       "runtimeArgs": ["server.js"],
-      "port": 8080
+      "port": 8080,
+      "autoPort": true
+    },
+    {
+      "name": "omniai-api",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["api-server.js"],
+      "port": 3001,
+      "autoPort": false
     }
   ]
 }
